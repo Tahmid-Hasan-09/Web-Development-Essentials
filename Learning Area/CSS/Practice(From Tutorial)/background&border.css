@@ -1,0 +1,21 @@
+h1{
+	/*border-color:purple;
+	border-width: 5px;
+	border-style: solid;*/
+	border:purple 5px solid;
+	/*border:2px dashed rgba(200,0,100,0.4);*/
+}
+/*border-width
+      -color
+      -style*/
+h4{
+    background:rgba(1,155,100,0.4); 
+    border : 4px rgb(150, 120, 100) solid;
+}
+
+body{
+	background: #11FFAA; /*hexadecimal*/
+	background: url(https://img.freepik.com/free-vector/watercolor-background_87374-69.jpg?size=626&ext=jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
