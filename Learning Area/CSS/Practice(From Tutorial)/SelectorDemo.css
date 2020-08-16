@@ -1,0 +1,45 @@
+/*Element*/
+li{
+
+}
+/*Class*/
+.hello{
+
+}
+/*id*/
+#name{
+
+}
+/*Star*/
+*{
+	border:2px lightgrey solid;
+}
+/*Descendent Selector*/
+/*ul li a{
+
+	}Or,*/
+/*li .hello{
+
+} Or,*/
+li a{
+	color:red;
+}
+/*Adjacent Selector*/
+h3 + ul{
+	border:4px red solid; 
+}
+/*Attribute Selectors*/
+/* input[type = "text"]{
+
+}*/
+a[href="http://www.google.com"]{    /* tag[attribute = "value"]{ } */
+	background: #FF00DD;
+	text-decoration:overline; 
+}
+/*nth of type*/
+ul:nth-of-type(odd){
+	background: purple;
+}
+li:nth-of-type(3){
+	background: orange;
+}
