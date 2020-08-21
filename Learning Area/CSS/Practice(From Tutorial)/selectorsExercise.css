@@ -78,7 +78,7 @@ div:nth-of-type(3) em{
 /*You may need to research some other selectors and properties*/
 
 /*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
-input[type ="checkbox"]:checked{
+input[type ="checkbox"]:checked{    /* input:checked{}*/
     margin-left:50px ;
 }
 
@@ -99,6 +99,6 @@ h1:hover{
 }
 
 /*Make the <a> element's that have been visited gray */
-a:hover{
+a:visited{
     color: gray;
 }
